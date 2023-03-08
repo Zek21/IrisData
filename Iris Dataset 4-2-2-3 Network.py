@@ -29,7 +29,7 @@ for i in range(y.shape[0]):
 X_train, X_test, y_train, y_test = train_test_split(X, y_one_hot, test_size=0.2, random_state=4)
 
 learning_rate = 0.1
-iterations = 10000
+iterations = 1000
 N = y_train.size
 
 # Input features
